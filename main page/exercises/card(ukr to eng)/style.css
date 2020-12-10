@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Картка
+======================== */
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card {
+  width: 25%;
+  max-width: 400px;
+  padding: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 9px;
+  box-shadow: 0px 0px 15px 5px #BED4F0;
+  cursor: pointer;
+}
+.card__ukrText {
+  font-size: 48px;
+  color: black;
+}
+.card__engText {
+  font-size: 24px;
+  font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+.card__line {
+  height: 2px;
+  width: 110%;
+  margin: 20px 0 15px;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(190,212,240,1) 50%, rgba(255,255,255,1) 100%);
+  border: none;
+}
+
+
+/* Кнопка
+======================== */
+
+.btn {
+  width: 150px;
+  padding: 10px;
+  background-color: #87B4F0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn__text {
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+}
+
+
+/* Надпис при завершенні проходження карток
+======================== */
+
+.all-done {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 56px;
+  text-align: center;
+}
+
+
+/* Для схову елементів
+======================== */
+
+.hidden {
+  display: none;
+  height: 0;
+}
